@@ -9,7 +9,7 @@ class Patient:
     patient_count = 0
 
     # Constructor
-    def _init_(self, patient_id, name, age, illness):
+    def __init__(self, patient_id, name, age, illness):
         self.patient_id = patient_id
         self.name = name
         self.age = age
@@ -32,7 +32,7 @@ class Patient:
 
 class Clinic:
     # Constructor
-    def _init_(self, clinic_name):
+    def __init__(self, clinic_name):
         self.clinic_name = clinic_name
         self.patients = []
 
